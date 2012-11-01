@@ -5,29 +5,75 @@
 	max-width: auto;
 	min-hight: 0;
 	max-hight: auto;
-	padding: 0;
-	border: 1px solid red;
 	margin: 0;
+	border: 1px solid red;
+	padding: 0;
 	top: 0;
-	position:relative;
+	position: relative;
 }
 /* ------------------------------- */
 .top_box {
-	display:block;
+	display: block;
 	min-width: 0;
 	max-width: auto;
-	/*width: auto;*/
 	min-hight: 0;
 	max-hight: auto;
-	padding: 10px;
-	border: 1px solid gray;	
 	margin-top: 3em;
 	margin-right: 2em;
 	margin-left: 2em;
 	margin-bottom: 3em;
+	border: 1px solid gray;
+	padding: 10px;
 	top: 0;
-	position: fixed;
+	position: relative;
 }
+
+.top_box_left_container {
+	display: block;
+	width: 15em;
+	min-hight: 0;
+	max-hight: auto;
+	border: 1px solid red;
+	top: 0;
+	position: relative;
+	float: left;
+}
+
+.top_box_left {
+	display: block;
+	background: orange;
+	min-width: 0;
+	max-width: 100%;
+	min-hight: 0;
+	max-hight: auto;
+	border: 1px solid red;
+	top: 0;
+	position: absolute;
+}
+
+.top_box_right_container {
+	display: block;
+	width: 15em;
+	min-hight: 0;
+	max-hight: auto;
+	border: 1px solid green;
+	top: 0;
+	position: relative;
+	float: right;
+}
+
+.top_box_right {
+	display: block;
+	background: yellow;
+	min-width: 0;
+	max-width: 100%;
+	min-hight: 0;
+	max-hight: auto;
+	border: 1px solid green;
+	top: 0;
+	position: absolute;
+}
+
 .middle_box {
 	min-width: 0;
 	max-width: auto;
@@ -44,6 +90,7 @@
 	position:absolute;
 	*/
 }
+
 .bottom_box {
 	min-width: 0;
 	max-width: auto;
@@ -54,6 +101,9 @@
 	margin-right: 2em;
 	margin-left: 2em;
 	bottom: 0;
-	position:fixed;
+	position: fixed;
 }
 /* ------------------------------- */
+p:first-line {
+	text-transform: uppercase
+}
